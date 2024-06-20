@@ -115,7 +115,7 @@ Implementing layer-wise learning rates in training deep neural networks is a sop
    - **Prevents Overfitting:** Lower rates in foundational layers help prevent overfitting by ensuring that these layers, which are responsible for capturing universal features, do not change too rapidly. This stability is crucial when the model is applied across multiple tasks that might pull the foundational layers in different directions.
    - **Encourages Task-specific Fine-tuning:** Higher rates in the task-specific layers encourage these layers to fine-tune aggressively to their respective tasks, making the model more responsive to task-specific signals without affecting the shared layers.
 
-The code for the task is present in [ task 4 ](https://github.com/i-am-pluto/ml-apprantenceship-assignment/blob/main/MultiTaskLearning.ipynb)
+The code for the task is present in [ task 4 ]
 
 ---
 
